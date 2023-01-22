@@ -196,7 +196,7 @@ int main(void)
 	  	     MX_I2C3_Init();
 	  	     /* USER CODE BEGIN 2 */
 	  	     lcd_init();
-	  	     	  lcd_send_string("Muhammed Fatih");
+	  	     	  lcd_send_string("ali");
 
 	  	     	    HAL_Delay(1000);
 	  	     	    lcd_send_cmd(0x01);	// Clear Display
